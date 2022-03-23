@@ -1,0 +1,256 @@
+@media (max-width: 479px) {
+    .mobile{display:block}
+    .desktop{display:none!important}
+    /*.breadcrumbs, .breadcrumbs_section {display:none}*/
+    .block_title{font-size:26px;line-height:28px}
+    .block_desc{font-size:18px;line-height:22px}
+
+    .first_section{padding-top:230px;padding-bottom:45px;background:#f6eddf url(../images/mob_bg_first_section.jpg) 100% -70px no-repeat}
+    .first_section .info{font-size:16px;line-height:22px;display:flex;justify-content:flex-start;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;flex-direction:column}
+    .first_section .title{font-size:26px;line-height:32px;order:1;width:235px;margin-bottom:25px}
+    .first_section .title + .mobile{order:2;margin-bottom:40px;position:relative}
+    .first_section .title + .mobile span{display:block;color:#5a489c;margin-left:60px}
+    .first_section .title + .mobile:after{position:absolute;bottom:-15px;transform:rotate(60deg);right:-40px;display:block;width:65px;height:27px;content:'';background:url(../images/ic_first_section_arr.png) 0 0 no-repeat}
+    .first_section .desc{margin-top:0;order:1;max-width:50%;margin-bottom:15px}
+    .first_section .cats{max-width:calc(100% + 15px);margin-top:20px;margin-bottom:-20px;margin-left:-15px;order:5}
+    .first_section .cats a{font-size:14px;width:calc(50% - 15px);height:165px;margin-bottom:20px;margin-left:15px;padding:85px 0 0;text-align:center}
+    .first_section .cats .icon{top:15px;left:50%;transform:translateX(-50%)}
+    .first_section .cats .name{width:100%}
+    .first_section .link{font-size:15px;line-height:20px;max-width:55%;height:auto;margin-top:0;margin-bottom:10px;padding:10px 15px;order:3}
+    .first_section .desc span:after{display:none}
+    .before_after .grid{margin-left:0;margin-right:0}
+    .before_after .item{margin-right:0;max-width:100%;margin-left:0}
+	 .main-prices{padding:60px 0 80px}
+	 .main-prices__content{padding:0;margin:0 0 35px;border:none}
+	 .main-prices__col{margin-bottom:14px}
+	 .main-prices__row{margin-bottom:14px}
+	 .one-video{padding:50px 0 70px}
+	 .one-video__title.block_title{margin:0 0 15px;text-align:left}
+	 .one-video__txt{text-align:left}
+	 .one-video__right-inner{padding:0 0 118%}
+	 .video_block {padding:40px 0}
+    .video_block .info{justify-content:center}
+    .video_block .info .title{font-size:20px;line-height:24px;margin-bottom:30px}
+    .video_block .info .free_color{margin:150px auto 0}
+    .video_block .info .desc{width:100%;margin:0;text-align:left}
+    .video_block .link{margin-top:30px}
+    .video_block .link a{font-size:15px;line-height:20px;height:auto;padding:10px 15px}
+    .video_block .count .nav{    position: absolute;
+        left: 0;
+        top: 0;
+        height: 20px;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+    .video_block .count .owl-prev {
+        left: -60px;
+    }
+    .video_block .count .owl-next {
+        left: auto;
+        right: -60px;
+    }
+    .violet-btn{height:auto;font:700 17px MuseoSans}
+    .subscribe_block .info .block_title{font-size:26px;line-height:30px}
+    .subscribe_block .subscribe_form{padding:20px}
+    .subscribe_block .subscribe_form .title{font-size:24px;line-height:28px}
+    .subscribe_block .subscribe_form .desc{font-size:16px;line-height:22px;padding:10px 15px}
+    .add_review .text{font-size:16px;line-height:22px;margin-top:-20px;margin-bottom:35px}
+    .service_info .head{padding-bottom:55px;background-position:100% 100%}
+    .service_info .head.bg1{background-image:url(../images/mob_service1_head_img.jpg);background-position:100% calc(100% + -90px);background-size:auto}
+    .service_info .head.bg2{background-image:url(../images/mob_service2_head_img.jpg);background-position:100% calc(100% + 40px)}
+    .service_info .head.bg3{background-image:url(../images/mob_service3_head_img.jpg);background-position:100% calc(100% + 40px)}
+    .service_info .head.bg4{background-image:url(../images/mob_service4_head_img.jpg);background-position:100% calc(100% + 40px)}
+    .service_info .head.bg5{background-image:url(../images/mob_service5_head_img.jpg);background-position:100% calc(100% + 40px)}
+    .service_info .head .title{font-size:25px;line-height:26px;width:50%}
+    .service_info .head .desc{padding:0;width:50%}
+    .service_info .head .link{font-size:14px;line-height:20px;max-width:65%;height:auto;margin-top:30px;padding:10px 15px}
+    .service_info .text_content {padding-top: 2rem;}
+	 .gallery .block_title {margin-bottom: 40px}
+    .gallery .item{width:calc(50% - 15px)}
+    .gallery .item:nth-child(3n+2){top:0}
+    .gallery .text .data{font-size:16px;line-height:20px;padding:15px 20px}
+	 .stocks{padding:80px 0 40px}
+	 .stocks.stocks--page{padding: 25px 0 55px}
+	 .stocks .block_title{margin-bottom:30px}
+	 .stocks-item:first-child .stocks-item__info .title{margin:0 0 10px;font:400 18px/29px Yeseva One}
+	 .stocks-item:first-child .stocks-item__info .desc{font:300 17px/24px MuseoSans}
+	 .stocks-item:first-child .stocks-item__info .violet-btn{margin:22px auto 0;height:20px;font:700 14px/20px MuseoSans}
+	 .stocks-item .title{font:600 16px/20px MuseoSans}
+	 .stocks-item__bottom{padding:15px 10px 10px}
+	 .stocks-item__info{top:40%;width:calc(100% + 30px)}
+	 .stocks-item__info::before{display:none}
+	 .stocks-item .violet-btn{margin:20px auto 0 auto !important;height:20px;font:700 14px/20px MuseoSans}
+	 .masters {padding: 40px 0 100px}
+    .variants{padding:40px 0 55px}
+    .variants .item{font-size:16px;line-height:20px}
+    .variants .item .title{font-size:20px;line-height:24px}
+    .variants .bottom{font-size:16px;padding:15px 20px}
+    .variants .bottom .title{font-size:20px;line-height:24px}
+    .interior{padding:40px 0}
+    .interior .item{font-size:16px;line-height:22px;padding-left:75px}
+    .interior .item .icon img{max-width:60px}
+    .interior .item .title{font-size:20px;line-height:24px}
+    .prices .item{flex-wrap:wrap}
+    .prices .item .name{width:100%;padding:0;white-space:normal}
+    .prices .item .dotted{display:none}
+    .prices .item .val{font-size:20px;padding:0}
+    .prices .item + .item{margin-top:20px}
+    .consult_block .methods .item .name{text-align:left}
+    .consult_block .methods .item{font-size:15px;width:calc(100% - 25px);padding-left:85px}
+    .consult_block .your_consult{margin-top:70px}
+    .consult_block .text{line-height:24px}
+    .portfolio_page .head{padding-top:10px;padding-bottom:55px;background: none; }
+    .portfolio_page .head .title{font-size:28px;line-height:32px}
+    .portfolio_page .head .mob_img{display:none;width:calc(100% + 30px)}
+    .portfolio_page .head .info{font-size:19px;line-height:23px}
+    .portfolio_page .head .links{margin-top:20px}
+    .portfolio_page .head .links a{width:calc(100% - 15px);padding-left:90px}
+    .portfolio_page .head .links .icon{left:25px}
+    .bottom_block .item .title{font-size:20px;line-height:24px;margin-bottom:15px}
+    .bottom_block .link{margin-top:30px}
+    .bottom_block .link a{font-size:16px;line-height:20px;width:100%;height:auto;padding:12px 20px 8px}
+    .subscribe .title{font-size:20px;line-height:26px}
+	 .reviews .review .info{font-size:16px;line-height:22px}
+    .reviews .review .title{font-size:20px;line-height:24px;margin-bottom:15px}
+    .reviews-page{padding:15px 0 60px}
+	 .reviews-page__inner{padding: 0px;margin: 0px auto;display: block;width: 85%}
+    .new_style .quote{margin-bottom:45px}
+    .new_style .quote .data{font-size:16px;line-height:22px;padding:15px 20px}
+    .new_style .text{font-size:16px;line-height:22px}
+    .services.services_items{padding:40px 0 60px}
+	 .services_items {padding: 15px 0 70px}
+    .services_items .cont .grid {grid-template-columns: 1fr;gap:15px}
+    .services .block_desc{font-size:16px;line-height:22px}
+    .services .grid:before{display:none}
+    .services .item .name, .card .name{margin-bottom:10px}
+    .services .item:after,.services .item:nth-child(2n):after{bottom:-25px}
+	 .services-subcat{padding:15px 0 60px}
+	 .services-subcat__item{margin:0 0 45px}
+	 .services-subcat__item-image{padding:0 0 72%}
+    .discount_block{padding-bottom:70px;background:#f9eddf}
+    .discount_block .info .grid{margin-bottom:-20px;margin-left:-15px}
+    .discount_block .info .item{font-size:14px;width:calc(50% - 15px);height:auto;margin-bottom:20px;margin-left:15px;padding:85px 0 0;text-align:center}
+    .discount_block .info .item .icon{top:0;left:50%;margin:0;transform:translateX(-50%)}
+    .discount_block .info .item .name{width:100%}
+    .discount_block .show_post{margin-top:20px}
+    .subscribe{padding-bottom:60px}
+    .subscribe .desc{font-size:18px;line-height:24px}
+    .thank_page .head{padding-top:130px;padding-bottom:100px}
+    .thank_page .head .info{font-size:18px}
+    .thank_page .head .info .link{font-size:15px;line-height:20px;height:auto;padding:10px 15px}
+    .instagram_block{padding:40px 0 50px}
+    .instagram_block .block_desc,.instagram_block .bottom{font-size:16px;line-height:22px}
+    .instagram_block .bottom .link{font-size:15px;line-height:20px;height:auto;padding:10px 15px}
+    .portfolio_page .head .time_desc{font-size:20px;margin-top:0;margin-bottom:20px}
+    .portfolio_page .head .time{font-size:18px}
+    .portfolio_page .head .link{font-size:15px;line-height:20px;height:auto;margin-top:30px;padding:10px 15px}
+    .day_page .head .desc{font-size:22px;line-height:28px}
+    .day_page .head .info{font-size:20px;line-height:26px}
+    .day_page .head .discount:after{display:none}
+    .coloring .text_info .title{font-size:18px;line-height:24px;margin-bottom:20px}
+    .coloring .text_info .title .icon{display:none}
+    .coloring .text_info .title .text{width:100%}
+    .coloring .text_info .img{display:block;left:0;position:relative}
+    .all_be_honest{padding-top:40px}
+    .difficult_work[id='2'] {
+        background: #f9eddf;
+    }
+    .difficult_work{background-size:185% auto}
+    .difficult_work .block_desc{font-size:18px;line-height:22px;margin-top:-10px;margin-bottom:30px}
+    .difficult_work .info{margin-bottom:50px}
+    .difficult_work .grid .item{font-size:14px;line-height:20px;width:100%;margin:0;padding-left:115px}
+    .difficult_work .text_block .title{font-size:22px;line-height:28px}
+    .difficult_work .text_block .link{font-size:15px;line-height:20px;width:100%;height:auto;margin-top:0;padding:10px 15px}
+    .toning .text_block .link{font-size:15px;line-height:20px;width:100%;height:auto;margin-top:0;padding:10px 15px}
+    .day_page .head{margin-bottom:40px;padding-top:10px;background-image:url(../images/mob_thursday_head_img.jpg);background-position:100% calc(100% + 170px)}
+    .day_page .head .info{font-size:25px;line-height:31px}
+    .day_page .head .desc small{font-size:17px}
+    .day_page .head .title{font-size:18px;line-height:23px;margin-top:10px;margin-bottom:20px}
+    .day_page .head .link{font-size:15px;line-height:20px;height:auto;margin-top:30px;padding:10px 15px}
+    .day_page .head .price{position:relative;top:0;right:0;display:block;margin:150px auto 20px}
+    .coloring .block_desc{font-size:16px;line-height:20px;margin-bottom:30px}
+    .coloring .grid .item{font-size:14px}
+    .coloring .text_info{font-size:16px;line-height:20px}
+    .coloring .text_info b{font-size:18px;line-height:24px}
+    .coloring .text_info b br{display:none}
+    .coloring .text_info img{position:relative;top:0;left:0;display:block;width:100%;margin:20px auto -30px}
+    .coloring .bottom .text{font-size:16px;line-height:20px;padding-bottom:30px}
+    .coloring .bottom .text b{font-size:18px}
+    .coloring .bottom .img{display:block;width:100%;padding:0 0 40px;background:none}
+    .coloring .bottom .img img{max-width:70%;margin:0 auto}
+    .reviews .block_desc,.all_be_honest .block_desc,.before_after .block_desc{font-size:16px;line-height:20px;margin-bottom:30px}
+    .all_be_honest .item .thumb{height:auto}
+    .cost_more .grid .item{font-size:14px}
+    .cost_more .text{font-size:16px;line-height:20px}
+    .cost_more .text .title{font-size:20px;line-height:26px}
+    .cost_more .text .link{font-size:15px;line-height:20px;height:auto;margin-top:30px;padding:10px 15px}
+    .before_after.padding{padding:40px 0 50px}
+    .before_after .title{font-size:20px}
+    .materials{padding:40px 0}
+    .materials .info{font-size:16px;line-height:20px}
+    .materials .title{font-size:18px;line-height:24px}
+    .wow_effect .text{font-size:16px;line-height:20px}
+    .wow_effect .text .title{font-size:18px;line-height:24px}
+    .text_block{font-size:16px;line-height:24px}
+    .text_block h1{font-size:26px;line-height:30px;margin-bottom:20px}
+    .text_block h2{font-size:20px;line-height:24px;margin-bottom:20px}
+    .modal,.modal form{padding:15px}
+    .service_info .head .info .desc2.mob{display:block;background-color:#fff;padding:10px 12px;color:#ff5773;border-radius:10px;font-size:16px}
+    .service_info .head .info .desc2{max-width:50%}
+    .first_section{padding-top:20px;background:#f6eddf url(../images/mob_bg_first_section.jpg) 100% -100px no-repeat}
+    .first_section .title{font-size:18px;line-height:23px;width:181px;margin-bottom:25px}
+    .first_section .cats a{width:100%;height:auto;padding:10px}
+    .page-template-contacts .title{margin:auto}
+    .first_section .cats .icon{position:static;transform:translateX(0);float:left;width:40px}
+    .first_section .cats .name{width:calc(100% - 50px)}
+    .first_section .cats .name br{display:none}
+    .interior .block_title{font-size:22px}
+    .gallery .slider_wrap{display:block;position:relative;width:100%}
+    .gallery .slider_wrap .item{width:100%}
+    .gallery .slider .slide{display:none;overflow:hidden;border-radius:8px}
+    .gallery .slider .slide:first-child,.gallery .owl-loaded .slide{display:block}
+    .gallery .slider .video_link{position:relative;display:block;border-radius:8px}
+    .gallery .slider_wrap .count{color:#433b3e;font:50px/50px Yeseva One;position:relative;left:calc(50% - 20px)}
+    .gallery .slider_wrap .count .current{position:relative;z-index:2}
+    .gallery .slider_wrap .count .total{color:#fff;font-size:21px;line-height:40px;position:absolute;z-index:1;bottom:15px;left:15px;width:40px;height:40px;text-align:center;letter-spacing:.01em;border-radius:50%;background:#e96282}
+    .gallery .slider_wrap .owl-carousel .owl-nav{position:relative}
+    .gallery .slider_wrap .owl-carousel .owl-nav .owl-prev{bottom:0;top:6px;left:0}
+    .gallery .slider_wrap .owl-carousel .owl-nav .owl-next{bottom:0;top:6px;right:0}
+    .consult_block .your_consult{display:block;position:absolute;left:calc(50% - 100px);top:-100px}
+    .consult_block .methods{padding-top:200px;padding-left:85px}
+    .consult_block .methods .title{color:#000;font:26px/30px Yeseva One;position:absolute;top:71%;left:0;width:10%;-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg);white-space:nowrap;opacity:.39;left:30px}
+    .consult_block .block_title + .block_desc{margin-top:-20px;margin-bottom:95px}
+    .consult_block{padding-bottom:38px}
+    .first_section .cats .icon img{width:40px}
+    .service_info .head.bg2{background-image:url(../images/mob_service2_head_img.jpg);background-position:100% calc(100% + 0px)}
+    .service_info .head.bg2 .cont{padding-top:40px}
+    .service_info .head.bg3{background-image:url(../images/sas.png);background-position:100% calc(100% + 52px);background-size:contain}
+    .service_info .head.bg4{background-position:100% calc(100% + -2px);background-size:contain}
+    .service_info .head.bg5{background-position:100% calc(100% + -2px);background-size:contain}
+    .day_page .head{background-position:100% calc(13% + -2px);background-size:contain;padding-top:10px}
+    .day_page .head .title{font-size:25px;line-height:26px;width:50%}
+    .day_page .head .desc{padding:0;width:50%}
+    .day_page .head .discount{font-size:16px;width:56%}
+    .day_page .head .price{display:none}
+    .materials .info img {
+        display: none;
+    }
+    .materials .info .block_title {
+        text-align: center;
+    }
+	 #contacts .info{padding:0 0 60px}
+	 .contacts-info{padding:40px 0 20px}
+	 .contacts-info__inner{width:100%}
+	 .contacts_block{padding:50px 0}
+	 .contacts_block__nav{display:block}
+	 .contacts_block__nav-item{padding:0 0 5px;margin:0 0 20px;width:100%}
+	 .contacts_block__nav-item:last-child{margin:0}
+	 .contacts_block .map{height:290px}
+	 .contacts_block .order_form{padding:10px;margin:0 0 20px;width:100%}
+	 .contacts_block .order_form form{padding:25px 20px}
+}
+
+@media (max-width: 370px) {
+	.footer-menu .menu{-webkit-columns:1;-moz-columns:1;columns:1}
+}

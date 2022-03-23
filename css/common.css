@@ -1,0 +1,44 @@
+.section-stories-reviews {
+	padding: 70px 0 90px 0;
+}
+
+
+.stories-item__image picture {
+    position: relative;
+    display: block;
+    padding-top: 170%;
+  }
+  .stories-item__image picture img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    height: calc(100% - 20px);
+    left: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .stories-item__image {
+	margin-left: 10px;
+}
+
+.stories-reviews .owl-nav button {
+    position: static !important;
+  }
+  
+  .stories-reviews .owl-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px
+  }
+
+  .gal.wee .more a.disabled {
+    display: none
+  }
+
+  
+.before_after.gal a.disabled,
+.gallery.gal .more a.disabled {
+    display: none
+  }

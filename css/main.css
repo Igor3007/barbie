@@ -1,0 +1,437 @@
+#contacts .info {
+  padding-bottom: 50px
+}
+
+#contacts .info .cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem
+}
+
+#contacts .info .content {
+  font-size: 1.2rem
+}
+
+#contacts .info .content div {
+  margin-bottom: 1rem
+}
+
+#contacts .info .content ul {
+  list-style-type: none;
+  margin-left: 0
+}
+
+#contacts .info .content ul li {
+  padding-left: 0
+}
+
+#contacts .info .content ul li:before {
+  content: none
+}
+
+#contacts .info .content ul li+li {
+  margin-top: 0
+}
+
+#contacts .info .content .section-title {
+  margin-bottom: 1rem;
+  display: block
+}
+
+#contacts .info .phone a {
+  text-decoration: none;
+  color: #000
+}
+
+@media (max-width:766.98px) {
+  #contacts .info .cont {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr
+  }
+}
+
+.masters {
+  position: relative
+}
+
+.masters__slider {
+  padding: 0 30px
+}
+
+.masters__slider .owl-stage-outer {
+  z-index: 2
+}
+
+.masters__slider .owl-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0
+}
+
+.masters__slider .owl-nav .owl-next,
+.masters__slider .owl-nav .owl-prev {
+  top: 0;
+  bottom: 0;
+  margin: auto
+}
+
+.masters__slider .owl-nav .owl-prev {
+  left: -30px;
+  right: auto
+}
+
+.masters__slider .owl-nav .owl-next {
+  right: -30px;
+  left: auto
+}
+
+.masters .card .descr .name {
+  font-weight: 700
+}
+
+.masters .card .descr .masters .violet-btn,
+.masters .card .descr .price.services .violet-btn {
+  font-weight: 400
+}
+
+.masters__nav {
+  display: none
+}
+
+.pre_reviews {
+  position: relative;
+  padding: 80px 0;
+  background: #ffdabb url(//barbiestudio.ru/wp-content/themes/barbi/images/bg_all_be_honest.png) calc(50% + 60px) calc(100% - 140px) no-repeat
+}
+
+.pre_reviews .cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px
+}
+
+.pre_reviews .text_block .title {
+  text-align: center
+}
+
+.pre_reviews .text_block .btn {
+  display: block;
+  margin: 3rem auto 0;
+  max-width: 320px;
+  color: #fff
+}
+
+@media (max-width:478.98px) {
+  .masters__nav {
+    margin-top: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+
+  .masters .violet-btn {
+    margin-top: 2rem
+  }
+
+  .pre_reviews .cont {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr
+  }
+}
+
+#coloristic {
+  padding-bottom: 50px;
+  padding-top: 50px
+}
+
+#coloristic .cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem
+}
+
+@media (max-width:766.98px) {
+  #coloristic .cont {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr
+  }
+}
+
+.content-section .cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+  grid-template-columns: 3fr 2fr;
+  grid-column-gap: 40px
+}
+
+@media (max-width:766.98px) {
+  .content-section .cont {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px
+  }
+
+  .content-section .cont .text_block {
+    -ms-grid-row: 2;
+    grid-row-start: 2
+  }
+
+  .content-section .cont .img_block img {
+    display: block;
+    margin: auto
+  }
+}
+
+.page-template-masters .services_items .item {
+  width: 85%;
+  margin: 0 auto
+}
+
+.page-template-masters .services_items .item .descr {
+  padding: 15px 15px 20px
+}
+
+.page-template-masters .services_items .item .descr .name {
+  font-weight: 700;
+  margin-bottom: 5px
+}
+
+.page-template-reviews .reviews .review {
+  margin-bottom: 4rem
+}
+
+.about .content {
+  padding: 70px 0
+}
+
+.about .content .float {
+  float: right;
+  width: 40%;
+  height: 300px
+}
+
+.about .all_be_honest {
+  background: #fff url(//barbiestudio.ru/wp-content/themes/barbi/images/bg_all_be_honest.png) calc(50% + 60px) calc(0% + 140px) no-repeat
+}
+
+.about .all_be_honest:before {
+  display: none
+}
+
+.about .all_be_honest .title {
+  margin-bottom: 2rem
+}
+
+.about .info-section {
+  font: 16px/22px MuseoSans;
+  padding: 35px 0 65px
+}
+
+.about .info-section.bg {
+  background: #f9eddf
+}
+
+.about .info-section .info_block .title {
+  font: 30px/40px Yeseva One;
+  margin-bottom: 2rem
+}
+
+.about .info-section .info_block:after {
+  content: "";
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 13px 22px rgba(0, 0, 0, .08);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2
+}
+
+.about .info-section .info_block:before {
+  z-index: 1
+}
+
+.about .info-section .info_block .text-block {
+  position: relative;
+  z-index: 3
+}
+
+.about .info-section.with-image .info_block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 2fr;
+  grid-template-columns: 4fr 2fr;
+  padding: 65px 50px
+}
+
+.about .info-section.with-image .text-block {
+  font-size: 22px
+}
+
+.about .info-section.with-image .img_block {
+  position: relative;
+  z-index: 3
+}
+
+.about .info-section.with-image .img_block img {
+  position: absolute;
+  max-width: 100%;
+  bottom: -65px
+}
+
+.about .wow_effect img {
+  max-width: 350px;
+  right: 10%
+}
+
+.about #map iframe {
+  display: block;
+  margin: auto
+}
+
+@media (min-width:1023px) {
+  .service_info .gal .block_title {
+    margin-bottom: 2rem;
+    font: 40px/50px Yeseva One
+  }
+}
+
+.service_info .gal {
+  margin-bottom: 1rem
+}
+
+.service_info .gal .grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 15px;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr)
+}
+
+.service_info .gal .grid .item {
+  width: 100%;
+  margin: 0;
+  position: relative
+}
+
+.service_info .gal .grid .item:hover {
+  box-shadow: 0 5px 35px #ca657c
+}
+
+.service_info .gal .grid .item:hover:after {
+  opacity: 1
+}
+
+.service_info .gal .grid .item:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: .2s linear;
+  opacity: 0;
+  background: rgba(0, 0, 0, .7) url(//barbiestudio.ru/wp-content/themes/barbi/images/ic_zoom.png) 50% 50% no-repeat
+}
+
+.service_info .gal .grid img {
+  margin: 0
+}
+
+.service_info .more {
+  margin-top: 3rem
+}
+
+.service_info .more a {
+  width: auto;
+  height: auto;
+  font: 17px/1em MuseoSans
+}
+
+.service_info .more a span {
+  padding: 20px 30px
+}
+
+.contacts_block__nav {
+  justify-content: center;
+}
+
+.success-send.fancybox-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.success-send.fancybox-content h3 {
+  padding-bottom: 13px;
+}
+
+.success-send.fancybox-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.success-send.fancybox-content h3 {
+  padding-bottom: 13px;
+}
+
+.wpcf7-response-output.active {
+  display: block !important;
+  font-size: 13px;
+  border: 2px solid #ffbf00;
+  padding: 10px;
+  line-height: 130%;
+}
+
+.wpcf7-form-control-wrap input.error {
+  border: 1px solid #f00 !important;
+}
+
+.btn-loading::after {
+  content: '';
+  width: 12px;
+  min-width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-left-color: transparent !important;
+  margin-left: 10px;
+  transition: transform 0.5s linear;
+  animation: 0.5s linear loadingrotate infinite;
+  display: inline-block;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 5px;
+}
+
+.btn-loading {
+  filter: grayscale(1);
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+@keyframes loadingrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
